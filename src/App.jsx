@@ -17,7 +17,7 @@ function App() {
         <HamburgerToggle handleToggle={handleToggle} />
       ) : (
         <div className="bg-[#fdf2ec]  min-h-[120vh] md:min-h-screen">
-          <Navbar toggle={toggle} handleToggle={handleToggle} />
+          <Navbar handleToggle={handleToggle} />
           <Hero />
         </div>
       )}

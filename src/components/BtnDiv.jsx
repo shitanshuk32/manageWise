@@ -5,7 +5,7 @@ const BtnDiv = () => {
     <div className="w-[100%] flex flex-col items-center px-6 py-4 md:flex-row md:justify-center md:gap-8">
       <button className="flex active justify-center items-center relative w-full h-14 md:max-w-[13rem] rounded-2xl my-5 bg-[#8247ff] text-white font-bold text-xl hover:transition-all hover:ease-out duration-1000 group hover:shadow-[0px_0px_2px_8px_#e9d8fd]">
         <span className="group-hover:mr-5 transition-all">Get Started</span>
-        <span className="mb-1 mr-36 md:mr-1  absolute right-4 hidden group-hover:block object-cover text-white hover:transition-all hover:ease-in-out hover:duration-1000">
+        <span className="mb-1 mr-16 md:mr-1 absolute right-4 hidden group-hover:block object-cover text-white hover:transition-all hover:ease-in-out hover:duration-1000">
           <ArrowCircleRightIcon />
         </span>
       </button>

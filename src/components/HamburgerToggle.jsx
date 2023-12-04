@@ -1,8 +1,9 @@
+import PropTypes from "prop-types";
 import Logo from "./Logo";
 
 const HamburgerToggle = ({ handleToggle }) => {
   return (
-    <div className="h-screen px-5 py-4 bg-white transition-all duration-500">
+    <div className="h-screen px-5 py-4 bg-white transition-all duration-500 md:hidden">
       <div className="flex justify-between items-center">
         <Logo />
         <img
@@ -35,6 +36,10 @@ const HamburgerToggle = ({ handleToggle }) => {
       </div>
     </div>
   );
+};
+
+HamburgerToggle.propTypes = {
+  handleToggle: PropTypes.func.isRequired,
 };
 
 export default HamburgerToggle;
